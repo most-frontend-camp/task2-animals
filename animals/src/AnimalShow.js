@@ -1,5 +1,5 @@
-function AnimalShow(props) {
-    return <div>Show cow!!</div>;
+function AnimalShow({type}) {
+    return <div>{type}</div>;
 }
 
 export default AnimalShow;
